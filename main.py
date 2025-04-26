@@ -30,7 +30,7 @@ class Solution:
     
     def disarium_upto_n(self, n):
         list_of_disarium = list()
-        for i in range(n):
+        for i in range(n+1):
             if self.disarium(i):
                 list_of_disarium.append(i)
         print(f'upto {n} disarium numbers are:\n', list_of_disarium)
